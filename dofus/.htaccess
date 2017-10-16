@@ -1,0 +1,4 @@
+SetEnvIfNoCase Referer ".*(http://imazine.allyogame.com/).*" spammer=yes
+Order allow,deny
+allow from all
+deny from env=spammer

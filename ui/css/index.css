@@ -1,0 +1,123 @@
+/* 
+    Document   : index.css
+    Created on : 8 sept. 2013, 02:04:49
+    Author     : Antoine
+*/
+
+*{
+    font-family: Arial, Sans-Serif;	
+    border: none;
+}
+body{
+    background-image: url('../img/bg.jpg');
+    background-color: #2a3374;
+    margin:0;
+    padding:0;
+    color: white;
+}
+
+a, a:visited{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+header{
+    background-image: url('../img/header_bg.png');
+    height: 50px;
+    padding: 5px 0;
+}
+
+header ul {
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+
+header ul li {
+    float:right;
+}
+
+header ul li a{
+    color : #898c9f;
+    font-weight: bolder;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.wrap{
+    width: 960px;
+    margin: auto;
+}
+
+.fright{float: right;}
+.fleft{float: left;}            
+.clear{clear:both;margin:40px 0}
+.padding10{padding:10px}
+.iframe{padding: 10px 0;padding-left: 50px;}
+.alignright{text-align: right;}
+.alignleft{text-align: left;}
+.aligncenter{text-align: center}
+
+.block{
+    border: 1px solid white;
+    padding: 10px;
+    margin: 0 10px;
+    background-image: url('../img/header_bg.png');
+}
+
+h2{
+    padding: 0 0 0 20px;margin:0 0 10px 0;
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+h3{
+    padding: 0 0 0 20px;margin:0 0 10px 0;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.blockright{
+    width: 430px;
+}
+
+#plan{
+    width: 419px;
+    margin-top:10px;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    background: url('../img/nums.png') top left no-repeat;
+}
+
+#desc ul {list-style-type:none;margin:0; padding:0}
+#desc ul li{
+    background-image: url('../img/checkbox_checked.png');
+    background-repeat: no-repeat;
+    padding: 5px 10px;
+    background-position-y: center;
+    padding-left: 25px; 
+}
+
+#createdBy p {margin: 5px 0;}
+
+
+#wrapper{
+    padding:10px;                
+}
+
+pre{
+    border: 2px dashed #EEE;
+    background-image: url('../img/header_bg.png');
+    padding: 15px;
+    font-size: 18px;
+}
