@@ -1,0 +1,10 @@
+###############
+# Externalize #
+###############
+# See how to create a .gitinore_global instead. We have to focus on project itself and not of developper's environnement
+.idea/*
+.php_cs.cache
+.settings
+.DS_Store
+composer.phar
+.rules/*
