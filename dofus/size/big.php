@@ -212,7 +212,7 @@ error_reporting(E_ALL);
                              ?>
                                 <a class="carousel-next" href="#" target="Contenu"><img src="ui/img/fleche_droite.png" /></a>
                             <?php 
-                            ?>
+                             } ?>
                         </b></font>
                     </div>
                     <div style="margin-top: 10px;" class="bonus">
